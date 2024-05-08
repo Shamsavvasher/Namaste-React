@@ -1,0 +1,10 @@
+#heading{
+    color: rgb(239, 222, 222);
+    background-color: rgba(16, 16, 16, 0.974);
+    display: inline;
+    border-radius: 25%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px yellow;
+}
