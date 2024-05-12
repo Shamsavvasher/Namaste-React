@@ -69,3 +69,7 @@ margin: 11px 11px 11px 11px;
     border: 1px solid black;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.filter-btn{
+    padding: 5px;
+    margin: 10px;
+}
