@@ -57,7 +57,7 @@ left: 50px;
 .res-card img{
 width: 328px;
 height: 228px;
-border-radius: 15px;
+/* border-radius: 15px; */
 margin: 11px 11px 11px 11px;
 
 }
