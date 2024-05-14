@@ -1,0 +1,8 @@
+1. What is React ?
+   React is an open-source JavaScript frontend library for
+   creating user interfaces, particularly for single-page
+   apps. It's used in online and mobile apps to manage
+   view layers. Jordan Walke, a Facebook software
+   engineer, is the creator of React. React was originally
+   used in 2011 on Facebook's News Feed and in 2012
+   on Instagram
