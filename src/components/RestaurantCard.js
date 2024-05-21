@@ -6,21 +6,35 @@ const RestaurantCard = (props) => {
         name,
         cuisines,
         avgRating,
-        deliveryTime,
-        costForTwo
+        costForTwo,
+        areaName
+    } = resData?.info;
+    const { 
+        deliveryTime
+    } = resData?.info.sla;
 
-     } = resData?.info;
-    
     return (
-        
+        <div className="res-main">
         <div className="res-card">
-            <img src={CDN_URL+cloudinaryImageId} />
-            <h3>{name }</h3>
-            <h4>{cuisines.join(", ")}</h4>
-            <h4>{avgRating }stars</h4>
-            <h4>{costForTwo}</h4>
-            <h4>{deliveryTime}minutes</h4>
-        </div>
+                <img src={CDN_URL + cloudinaryImageId} />
+                <h4>{name}</h4>
+                <div className="avg">
+
+                <span><i className="ri-star-s-fill"></i>{avgRating}</span>
+                </div>
+                <p>{cuisines.join(", ")}</p>
+                <h4>{areaName }</h4>
+                <div className="res-card-info">
+                    <h4>{costForTwo}</h4>
+                    <h4 className="delivery">Delivery in-{deliveryTime}mins</h4>
+                    
+                </div>
+                
+                
+           
+            
+            </div>
+            </div>
     )
 }
 export default RestaurantCard;
